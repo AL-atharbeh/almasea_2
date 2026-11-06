@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="meta.title">الماسية الأولى للتطوير العقاري</title>
+  <meta name="description" content="الماسية الأولى للتطوير العقاري — تطوير عقاري بمعايير الماس في عمّان.">
+  <meta name="theme-color" content="#050708">
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&family=Reem+Kufi:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="is-loading">
+
+<!-- Preloader: the diamond draws itself -->
+<div class="loader" aria-hidden="true">
+  <svg class="loader-gem" viewBox="0 0 120 100">
+    <path d="M30 6 H90 L114 34 L60 96 L6 34 Z M6 34 H114 M30 6 L44 34 L60 96 L76 34 L90 6 M44 34 L60 6 L76 34"/>
+  </svg>
+  <div class="loader-count"><span id="loader-num">0</span>%</div>
+  <div class="loader-curtain"></div>
+</div>
+
+<div class="cursor" aria-hidden="true"><span class="cursor-label"></span></div>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="hdr">
+  <a class="hdr-logo" href="#top"><img src="assets/img/logo-white.png" alt="الماسية الأولى للتطوير العقاري"></a>
+  <div class="hdr-actions">
+    <button class="lang-toggle" type="button" data-i18n="lang.switch">EN</button>
+    <button class="menu-btn" type="button" aria-expanded="false">
+      <span class="menu-btn-text" data-i18n="v2.menu">القائمة</span>
+      <span class="menu-btn-lines"><i></i><i></i></span>
+    </button>
+  </div>
+</header>
+
+<nav class="overlay-menu" aria-hidden="true">
+  <div class="om-links">
+    <a href="#top" data-img="0"><small>01</small><span data-i18n="nav.home">الرئيسية</span></a>
+    <a href="#statement" data-img="1"><small>02</small><span data-i18n="nav.about">من نحن</span></a>
+    <a href="#collection" data-img="2"><small>03</small><span data-i18n="nav.projects">مشاريعنا</span></a>
+    <a href="#pillars" data-img="0"><small>04</small><span data-i18n="nav.services">خدماتنا</span></a>
+    <a href="#contact" data-img="1"><small>05</small><span data-i18n="nav.contact">تواصل معنا</span></a>
+  </div>
+  <div class="om-visual"><div class="om-img" id="om-img"></div></div>
+  <div class="om-foot" id="om-foot"></div>
+</nav>
+
+<main id="top">
+  <!-- Hero: rotating 3D diamond -->
+  <section class="hero">
+    <div class="hero-word" aria-hidden="true"><span data-i18n="v2.word">الماسية</span></div>
+    <div class="gem-wrap"><canvas class="gem" id="gem" aria-hidden="true"></canvas></div>
+    <div class="hero-copy">
+      <p class="eyebrow" data-i18n="hero.kicker">الماسية الأولى للتطوير العقاري</p>
+      <h1 class="hero-title"><span class="line"><span data-i18n="v2.hero1">نصقل العقار</span></span><span class="line"><em data-i18n="v2.hero2">كما يُصقل الماس</em></span></h1>
+    </div>
+    <div class="hero-side">
+      <p data-i18n="v2.heroText">مشاريع سكنية وتجارية في عمّان، تُصمَّم بدقة الجوهري وتُبنى لتدوم.</p>
+      <a href="#collection" class="link-line" data-cursor="↓"><span data-i18n="hero.cta1">استعرض مشاريعنا</span></a>
+    </div>
+    <div class="scroll-hint"><span data-i18n="v2.scroll">مرّر للاستكشاف</span><i></i></div>
+  </section>
+
+  <!-- Statement: words light up while scrolling -->
+  <section class="statement" id="statement">
+    <p class="eyebrow" data-i18n="about.kicker">من نحن</p>
+    <p class="statement-text" id="statement-text" data-i18n="v2.statement"></p>
+  </section>
+
+  <!-- Image that expands to full screen -->
+  <section class="reveal">
+    <div class="reveal-frame" id="reveal-frame">
+      <img id="reveal-img" alt="">
+      <div class="reveal-caption">
+        <span class="eyebrow light" data-i18n="v2.featured">مشروع مختار</span>
+        <h2 id="reveal-name"></h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- Horizontal collection -->
+  <section class="collection" id="collection">
+    <div class="collection-head">
+      <p class="eyebrow" data-i18n="projects.kicker">مشاريعنا</p>
+      <h2 class="display" data-i18n="v2.collection">المجموعة</h2>
+    </div>
+    <div class="h-wrap">
+      <div class="h-track" id="h-track"></div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true"><div class="marquee-track" id="marquee"></div></div>
+
+  <!-- Pillars -->
+  <section class="pillars" id="pillars">
+    <div class="pillars-head">
+      <p class="eyebrow" data-i18n="services.kicker">خدماتنا</p>
+      <h2 class="display" data-i18n="v2.pillarsTitle">أربعة أوجه للجودة</h2>
+    </div>
+    <div class="facets">
+      <article class="facet"><span class="facet-n">01</span><h3 data-i18n="service.1.t"></h3><p data-i18n="service.1.d"></p></article>
+      <article class="facet"><span class="facet-n">02</span><h3 data-i18n="service.2.t"></h3><p data-i18n="service.2.d"></p></article>
+      <article class="facet"><span class="facet-n">03</span><h3 data-i18n="service.3.t"></h3><p data-i18n="service.3.d"></p></article>
+      <article class="facet"><span class="facet-n">04</span><h3 data-i18n="service.4.t"></h3><p data-i18n="service.4.d"></p></article>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="contact-big">
+      <p class="eyebrow" data-i18n="contact.kicker">تواصل معنا</p>
+      <h2 class="display"><span data-i18n="v2.contact1">لنصنع</span><br><em data-i18n="v2.contact2">شيئاً استثنائياً</em></h2>
+      <p class="muted" data-i18n="contact.text"></p>
+      <div class="contact-info" id="contact-info"></div>
+      <div class="social" id="social"></div>
+    </div>
+    <form class="contact-form" id="contact-form">
+      <label class="field"><input name="name" required placeholder=" " autocomplete="name"><span data-i18n="form.name">الاسم</span></label>
+      <label class="field"><input name="phone" type="tel" required placeholder=" " dir="ltr" autocomplete="tel"><span data-i18n="form.phone">رقم الهاتف</span></label>
+      <label class="field select"><select name="project" id="f-project"></select><span data-i18n="form.project">المشروع المهتم به</span></label>
+      <label class="field"><textarea name="message" rows="3" placeholder=" "></textarea><span data-i18n="form.message">رسالتك</span></label>
+      <button class="btn-gem" type="submit" data-cursor="→"><span data-i18n="form.send">إرسال الاستفسار</span></button>
+      <p class="form-note" id="form-note" hidden></p>
+    </form>
+  </section>
+</main>
+
+<footer class="ftr">
+  <div class="ftr-row">
+    <p>© <span id="year"></span> <span data-i18n="meta.title"></span></p>
+    <p class="by" data-i18n="footer.by"></p>
+  </div>
+  <div class="ftr-word" aria-hidden="true">ALMASSIEH</div>
+</footer>
+
+<a class="wa-fab" hidden target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 01-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.7 11.8 11.8 0 004.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 001.8-1.3 2.2 2.2 0 00.1-1.3c0-.1-.2-.2-.5-.3z"/></svg>
+</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

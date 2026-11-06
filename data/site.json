@@ -1,0 +1,200 @@
+{
+  "settings": {
+    "phone": "",
+    "whatsapp": "",
+    "email": "",
+    "address": {
+      "ar": "عمّان، الأردن",
+      "en": "Amman, Jordan"
+    },
+    "social": {
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  "projects": [
+    {
+      "id": "dh1",
+      "visible": true,
+      "name": {
+        "ar": "دايموند هيلز 1",
+        "en": "Diamond Hills 1"
+      },
+      "type": {
+        "ar": "فلل سكنية",
+        "en": "Residential Villas"
+      },
+      "units": {
+        "ar": "فيلتان",
+        "en": "2 Villas"
+      },
+      "location": {
+        "ar": "عمّان، الأردن",
+        "en": "Amman, Jordan"
+      },
+      "summary": {
+        "ar": "فلل فاخرة بطابع كلاسيكي معاصر، بواجهات حجرية وأعمدة شاهقة.",
+        "en": "Luxury villas in a contemporary classic style, with stone façades and grand columns."
+      },
+      "description": {
+        "ar": "يقدّم مشروع دايموند هيلز 1 فللاً سكنية فاخرة صُممت بروح كلاسيكية معاصرة؛ واجهات حجرية بيضاء، وأعمدة شاهقة تمنح المدخل حضوراً مميزاً، وشرفات واسعة، وحدائق منسّقة ومداخل خاصة للسيارات. تصميم يجمع بين الفخامة والخصوصية وراحة العائلة.",
+        "en": "Diamond Hills 1 offers luxury residential villas designed in a contemporary classic spirit: white stone façades, grand columns that give the entrance a distinctive presence, generous balconies, landscaped gardens and private driveways. A design that brings together elegance, privacy and family comfort."
+      },
+      "features": {
+        "ar": [
+          "واجهات حجرية بتصميم كلاسيكي",
+          "حدائق خاصة منسّقة",
+          "مداخل وكراجات خاصة",
+          "شرفات واسعة"
+        ],
+        "en": [
+          "Classic stone façades",
+          "Private landscaped gardens",
+          "Private driveways and parking",
+          "Generous balconies"
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/img/dh1/1.jpg",
+          "sm": "assets/img/dh1/1-sm.jpg"
+        },
+        {
+          "src": "assets/img/dh1/2.jpg",
+          "sm": "assets/img/dh1/2-sm.jpg"
+        },
+        {
+          "src": "assets/img/dh1/3.jpg",
+          "sm": "assets/img/dh1/3-sm.jpg"
+        },
+        {
+          "src": "assets/img/dh1/4.jpg",
+          "sm": "assets/img/dh1/4-sm.jpg"
+        },
+        {
+          "src": "assets/img/dh1/5.jpg",
+          "sm": "assets/img/dh1/5-sm.jpg"
+        }
+      ],
+      "plans": [],
+      "map": ""
+    },
+    {
+      "id": "dh2",
+      "visible": true,
+      "name": {
+        "ar": "دايموند هيلز 2",
+        "en": "Diamond Hills 2"
+      },
+      "type": {
+        "ar": "فلل سكنية",
+        "en": "Residential Villas"
+      },
+      "units": {
+        "ar": "6 فلل",
+        "en": "6 Villas"
+      },
+      "location": {
+        "ar": "عمّان، الأردن",
+        "en": "Amman, Jordan"
+      },
+      "summary": {
+        "ar": "مجمّع فلل بتصميم عصري، بواجهات زجاجية واسعة وحدائق ومسابح خاصة.",
+        "en": "A modern villa compound with wide glazing, gardens and private pools."
+      },
+      "description": {
+        "ar": "دايموند هيلز 2 مجمّع فلل بتصميم معماري عصري، يعتمد على الخطوط الأفقية النظيفة والواجهات الزجاجية الواسعة التي تملأ المساحات بالضوء الطبيعي. تحيط بالفلل حدائق خضراء ومسابح خاصة، في بيئة هادئة تناسب العائلات الباحثة عن الرقي والخصوصية.",
+        "en": "Diamond Hills 2 is a villa compound with modern architecture built on clean horizontal lines and wide glazing that fills the spaces with natural light. The villas are surrounded by green gardens and private pools, in a calm setting for families seeking refinement and privacy."
+      },
+      "features": {
+        "ar": [
+          "تصميم معماري عصري",
+          "مسابح خاصة",
+          "واجهات زجاجية وإضاءة طبيعية",
+          "حدائق ومساحات خضراء"
+        ],
+        "en": [
+          "Modern architecture",
+          "Private pools",
+          "Wide glazing and natural light",
+          "Gardens and green spaces"
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/img/dh2/1.jpg",
+          "sm": "assets/img/dh2/1-sm.jpg"
+        },
+        {
+          "src": "assets/img/dh2/2.jpg",
+          "sm": "assets/img/dh2/2-sm.jpg"
+        },
+        {
+          "src": "assets/img/dh2/3.jpg",
+          "sm": "assets/img/dh2/3-sm.jpg"
+        },
+        {
+          "src": "assets/img/dh2/4.jpg",
+          "sm": "assets/img/dh2/4-sm.jpg"
+        }
+      ],
+      "plans": [],
+      "map": ""
+    },
+    {
+      "id": "zahran",
+      "visible": true,
+      "name": {
+        "ar": "مبنى زهران",
+        "en": "Zahran Building"
+      },
+      "type": {
+        "ar": "مبنى تجاري ومكاتب",
+        "en": "Commercial & Office Building"
+      },
+      "units": {
+        "ar": "",
+        "en": ""
+      },
+      "location": {
+        "ar": "زهران، عمّان",
+        "en": "Zahran, Amman"
+      },
+      "summary": {
+        "ar": "مبنى مكاتب بواجهة حجرية أنيقة في منطقة زهران.",
+        "en": "An office building with an elegant stone façade in Zahran."
+      },
+      "description": {
+        "ar": "مبنى زهران مبنى تجاري ومكتبي بواجهة حجرية تعتمد على إيقاع الأعمدة العمودية، ونوافذ واسعة توفّر إضاءة طبيعية لجميع الطوابق. يقع في منطقة زهران الحيوية في عمّان، ويوفّر بيئة عمل عصرية مع ساحة أمامية ومواقف للسيارات.",
+        "en": "Zahran Building is a commercial and office building with a stone façade built on a rhythm of vertical piers, and wide windows that bring natural light to every floor. Located in the vibrant Zahran area of Amman, it offers a modern working environment with a front plaza and parking."
+      },
+      "features": {
+        "ar": [
+          "واجهة حجرية بتصميم معاصر",
+          "إضاءة طبيعية لجميع الطوابق",
+          "موقع حيوي في زهران",
+          "مواقف سيارات"
+        ],
+        "en": [
+          "Contemporary stone façade",
+          "Natural light on every floor",
+          "Prime location in Zahran",
+          "Parking"
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/img/zahran/1.jpg",
+          "sm": "assets/img/zahran/1-sm.jpg"
+        },
+        {
+          "src": "assets/img/zahran/2.jpg",
+          "sm": "assets/img/zahran/2-sm.jpg"
+        }
+      ],
+      "plans": [],
+      "map": "Zahran, Amman, Jordan"
+    }
+  ]
+}
